@@ -1,0 +1,17 @@
+# $Id$
+#
+# ES
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION 2.6.0\n"
+"POT-Creation-Date: 2020-11-29 10:00+0100\n"
+"PO-Revision-Date: 2020-11-29 10:00+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "translated content - en"
+msgstr "Contenido traducido - es"

@@ -1,0 +1,11 @@
+drupal_formacion:
+  js:
+    js/scripts.js: {}
+  css:
+    theme:
+      css/theme_styles.css: {}
+    layout: 
+      css/layout_styles.css: {}
+  dependencies:
+    - core/jquery
+  
