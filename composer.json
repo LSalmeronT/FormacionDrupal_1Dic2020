@@ -1,0 +1,28 @@
+{
+    "name": "everis/drupal_formacion",
+    "type": "drupal-module",
+    "description": "Module example",
+    "keywords": ["Drupal"],
+    "homepage": "https://github.com/LSalmeronT/FormacionDrupal_1Dic2020",
+    "support": {
+        "issues": "https://github.com/LSalmeronT/FormacionDrupal_1Dic2020/issues",
+        "source": "https://github.com/LSalmeronT/FormacionDrupal_1Dic2020"
+    },
+    "authors": [
+        {
+          "name": "Lucas Salmerón Tinoco",
+          "email": "lucas.salmeron.tinoco@everis.com",
+          "role": "Developer"
+        }
+      ],
+      "license": "proprietary",
+      "minimum-stability": "dev",
+      "repositories": [
+        {
+          "type": "composer",
+          "url": "https://packages.drupal.org/8"
+        }
+      ],
+      "require": {
+      }
+}

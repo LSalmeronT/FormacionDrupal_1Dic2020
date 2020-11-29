@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Formación Drupal .module
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function drupal_formacion_help($route_name, RouteMatchInterface $route_match) {
+  if ($route_name=='help.page.drupal_formacion') {
+    $output = '';
+    $output .= '<h3>' . t('About') . '</h3>';
+    $output .= '<p>' . t('Modulo par formación Drupal') . '</p>';
+    return $output;
+  }
+}
