@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_install
+ */
+function damm_promotions_install() {
+  //TODO:CAMBIAR AQUÍ SCHEMA VERSION NUMBER SEGÚN SE INCREMENTE HOOK UPDATE
+  drupal_set_installed_schema_version('drupal_formacion', 8000);
+}
+
+/**
+ * Update something
+ */
+function damm_promotions_update_8001() {
+    // Update something!
+}
+

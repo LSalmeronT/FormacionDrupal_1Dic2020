@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Formación Drupal .module
- */
-
 use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
@@ -16,5 +11,31 @@ function drupal_formacion_help($route_name, RouteMatchInterface $route_match) {
     $output .= '<h3>' . t('About') . '</h3>';
     $output .= '<p>' . t('Modulo par formación Drupal') . '</p>';
     return $output;
+  }
+}
+
+/**
+ *  Register module templates
+ *  Implements hook_preprocess_page()
+ */
+function drupal_formacion_theme() {
+  $theme['node__new__full'] = [
+    'template' => 'node--new--full',
+  ];
+  return $theme;
+}
+
+/**
+ *  Add libraries and pass data to JS
+ *  Implements hook_preprocess_page()
+ */
+function drupal_formacion_preprocess_page(&$variables)
+{
+  if (isset($variables['node'])) {
+    $nodetype = $variables['node']->getType();
+  }
+  if (isset($nodetype) && $nodetype == 'new') {
+    $variables['#attached']['library'][] =  'drupal_formacion/drupal_formacion';
+    $variables['#attached']['drupalSettings']['drupal_formacion'] = ['some data'];
   }
 }

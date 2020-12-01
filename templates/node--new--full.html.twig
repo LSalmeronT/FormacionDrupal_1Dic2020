@@ -1,0 +1,15 @@
+
+{% set node = elements['#node'] %}
+
+{% import _self as new %}
+<div class="new">
+  <div {{ attributes.addClass(classes) }}>
+    <div class="content">
+        <div class="new-image">
+            <img src="{{ file_url(node.fields.field_image_new.entity.uri.value) }}" alt="{{ node.field_image_new.alt }}">
+        </div>
+        <h2 class="field-title">{{ node.field_title.value }}</h2>
+         <div class="new-body">{{ node.body.value }}</div>
+    </div>
+  </div>
+</div>
