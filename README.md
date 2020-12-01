@@ -11,3 +11,4 @@ Modulo Drupal de ejemplo
 - [Drupal Doc - Uso de Twig en Drupal](https://www.drupal.org/docs/theming-drupal/twig-in-drupal "https://www.drupal.org/docs/theming-drupal/twig-in-drupal")
 - [Drupalize - Links de menu, acciones y links contextuales](https://drupalize.me/tutorial/links-overview-developers?p=2766 "https://drupalize.me/tutorial/links-overview-developers?p=2766")
 - [Drupalize - Que son los Hooks](https://drupalize.me/tutorial/what-are-hooks?p=2766 "https://drupalize.me/tutorial/what-are-hooks?p=2766")
+- [Drupal Doc - Coding standards](https://www.drupal.org/docs/develop/standards "https://www.drupal.org/docs/develop/standards")
