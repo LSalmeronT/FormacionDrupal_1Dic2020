@@ -8,4 +8,7 @@ drupal_formacion:
       css/layout_styles.css: {}
   dependencies:
     - core/jquery
+    - core/drupalSettings
+    - core/drupal
+
   
